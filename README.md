@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -203,11 +204,6 @@
     </div>
 </section>
 
-<section style="background-image: url('https://assets.onecompiler.app/42jd8ggps/438uv2s2r/WhatsApp%20Image%202025-02-12%20at%2014.23.40_eda2ea01.jpg'); background-size: cover; background-position: center; height: 30vh; color: white; text-align: center; display: flex; justify-content: center; align-items: center;">
-    <h1>Welcome to Our Website</h1>
-    <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
-</section>
-
 <section id="playlist-section" class="hidden" 
     <h2 style="text-align: center; color: #333;">Our Playlists</h2>
     <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; background-color: white;">
@@ -231,6 +227,23 @@
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2YZyLoL8N0Wb9xBt1NhZWg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4Rj9lQm9oSiMlirgpsM6eo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+</section>
+
+<!-- Calendar Section -->
+<section id="calendar-section" class="hidden" style="background: linear-gradient(to bottom, #e3f2fd, #ffffff); border: 1px solid #4CAF50; border-radius: 15px; padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin: 20px auto; max-width: 800px;">
+    <h2 style="color: #1e88e5; text-align: center; font-family: 'Roboto', sans-serif;">Our Journey - Days, Months, Years, Hours, Minutes & Seconds</h2>
+    <div id="date-count" class="date-count" style="color: #333; font-weight: bold; font-size: 1.2em; text-align: center;">
+        <!-- Timer will be shown here -->
+    </div>
+</section>
+
+<!-- Canva Section -->
+<section id="canva-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">Our Canva</h2>
+    <p style="text-align: center; color: #555;">We have an encrypted Canva web accessible only via password. Please click the button below to access it.</p>
+    <div style="text-align: center;">
+        <a href="https://talescybers.my.canva.site/finley-and-faith-s-private-website" class="bounce button" target="_blank" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #008080; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Visit Our Canva</a>
     </div>
 </section>
 
