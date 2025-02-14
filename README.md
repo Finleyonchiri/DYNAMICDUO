@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -209,38 +208,27 @@
     <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
 </section>
 
-<!-- Playlist Section -->
 <section id="playlist-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
     <h2 style="text-align: center; color: #333;">Our Playlists</h2>
     <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; text-align: center; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
         <p style="color: #555;">Here are our favorite playlists. Enjoy!</p>
-        <!-- Continue adding your iframes below this line -->
 
-<p><strong>Giveon</strong></p>
-        
+        <!-- Playlist Embeds -->
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4fxd5Ee7UefO4CUXgwJ7IP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>Top Christian</strong></p>     
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5rwdHhhy28n7iOnrSC291e?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>Hot list ke</strong></p> 
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWWXigQZAD8B?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>Amapiano</strong></p>     
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Ymf8eaPQGT7HMTymoX82f?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>The Story Teller</strong></p>     
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7xPDTxQrpZPvvI0LzuO73p?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>Nyashinski</strong></p>      
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7KY9NaOVRmptl8vlpVomi6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>Bien</strong></p>        
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2zhossaaVN2pXg5p8o101X?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>mr Lamar</strong></p>   
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2YZyLoL8N0Wb9xBt1NhZWg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<p><strong>Sauti Sol</strong></p>      
 
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4Rj9lQm9oSiMlirgpsM6eo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
