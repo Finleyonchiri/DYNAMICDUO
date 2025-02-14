@@ -208,10 +208,10 @@
     <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
 </section>
 
-<section id="playlist-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
-    <h2 style="text-align: center; color: #333;">Our Playlists</h2>
-    <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; text-align: center; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <p style="color: #555;">Here are our favorite playlists. Enjoy!</p>
+<section id="Playlist" class="hidden">
+    <h2>Our Playlist</h2>
+    <div class="spotify-podcasts">
+        <p>Listen to our favorite Playlist!</p>
 
         <!-- Playlist Embeds -->
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4fxd5Ee7UefO4CUXgwJ7IP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -233,7 +233,6 @@
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4Rj9lQm9oSiMlirgpsM6eo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </section>
-
 
 <!-- Canva Section -->
 <section id="canva-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
