@@ -160,6 +160,10 @@
 <p><a href="mailto:nyabugafinley@gmail.com?subject=Feedback&body=Name:%20[name]%0AEmail:%20[email]%0AFeedback:%20[feedback]"><button type="submit">Submit Feedback</button></a></p>
 <p id="successMessage" class="success-message" style="display:none;">Your feedback was received successfully! Thank you for sharing your thoughts with us.</p>
 </section>
+<section style="background-image: url('https://assets.onecompiler.app/42jd8ggps/438uv2s2r/WhatsApp%20Image%202025-02-12%20at%2014.23.40_eda2ea01.jpg'); background-size: cover; background-position: center; height: 30vh; color: white; text-align: center; display: flex; justify-content: center; align-items: center;">
+    <h1>Welcome to Our Website</h1>
+    <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
+</section>
  <!-- Play Game Button -->
     <section id="play-game">
         <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" target="_blank">
@@ -173,24 +177,32 @@
     <div class="spotify-playlists">
         <p>Here are our favorite playlists. Enjoy!</p>
 
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0DDeORYJfJyqkHDkTCf5uD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<p><strong>Giveon</strong></p>
         
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4fxd5Ee7UefO4CUXgwJ7IP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>Top Christian</strong></p>     
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5rwdHhhy28n7iOnrSC291e?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>Hot list ke</strong></p> 
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWWXigQZAD8B?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>Amapiano</strong></p>     
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Ymf8eaPQGT7HMTymoX82f?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>The Story Teller</strong></p>     
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7xPDTxQrpZPvvI0LzuO73p?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>Nyashinski</strong></p>      
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7KY9NaOVRmptl8vlpVomi6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>Bien</strong></p>        
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2zhossaaVN2pXg5p8o101X?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>mr Lamar</strong></p>   
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2YZyLoL8N0Wb9xBt1NhZWg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        
+<p><strong>Sauti Sol</strong></p>      
+
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4Rj9lQm9oSiMlirgpsM6eo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </section>
@@ -313,11 +325,6 @@
     </div>
 </section>
 
-<!-- Footer -->
-<footer>
-    <p>© 2025@talescybers</p>
-</footer>
-
 <script>
     // Toggle between sections
     function toggleSection(sectionId) {
@@ -420,4 +427,13 @@
         document.getElementById('faith-score').innerText = score;
     }
 </script>
+<footer style="background-color: #D4674C; color: white; padding: 5px; text-align: center;">
+    <p>&copy; 2025 talesonlineoffices@gmail.com All rights reserved.</p>
+    <div>
+        <a href="https://facebook.com" style="color: blue; margin: 0 10px; text-decoration: none;">Facebook</a>
+        <a href="https://twitter.com" style="color: blue; margin: 0 10px; text-decoration: none;">Twitter</a>
+        <a href="https://instagram.com" style="color: blue; margin: 0 10px; text-decoration: none;">Instagram</a>
+    </div>
+</footer>
+
 </body>
