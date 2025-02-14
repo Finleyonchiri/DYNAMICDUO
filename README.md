@@ -136,7 +136,6 @@
 <!-- Home Page Welcome -->
 <header>
     <h1>Welcome to Finley & Faith's Journey</h1>
-    <p>We’re excited to share our love, faith, and adventures with you!</p>
     <a href="#" onclick="toggleSection('home-section')" class="button">Home</a>
 </header>
 
@@ -152,7 +151,14 @@
 <!-- Home Section -->
 <section id="home-section">
     <h2>Welcome to Our Site</h2>
-    <p>Enjoy our playlist, podcasts, games, and more! This is a place to celebrate our journey together.</p>
+<p>Faith and Finley Onchiri are a testament to love's enduring power, two hearts intertwined in a dance of devotion, laughter, and shared dreams. Their love story is a beautiful journey marked by unwavering support, deep understanding, and the magic of everyday moments cherished together. From whispered secrets to joyous celebrations, Faith and Finley have crafted a bond that grows stronger with each passing day, illuminating their lives with a radiant light that only true love can bring.</p>
+<p>Welcome to our vibrant web space, a dynamic hub that seamlessly blends creativity, entertainment, and personalization. Our platform features an intuitive <strong>Canva</strong> integration, allowing users to create stunning designs effortlessly. Dive into an immersive world of <strong>games</strong> designed to entertain and challenge. Personalize your experience with a detailed <strong>profile</strong>, showcasing your unique identity. Finally, curate your own <strong>playlists</strong> to enjoy your favorite tunes and videos, making our web a go-to destination for creativity, fun, and personal expression.</p>
+<p>🌟 Welcome to Today's Feedback! 🌟 Our vibrant website is your ultimate creative playground. With our intuitive <strong>Canva integration</strong>, you can effortlessly craft stunning designs. Step into an immersive world of <strong>games</strong> that entertain and challenge, while personalizing your experience with a detailed <strong>profile</strong> that showcases your unique identity. Curate your favorite tunes and videos with customizable <strong>playlists</strong>, making our platform a go-to hub for creativity, fun, and personal expression. We value your feedback immensely, so please share your thoughts with us in the form below! 😊</p>
+<p>Your Name: <input type="text" id="name" name="name" placeholder="Enter your name" required></p>
+<p>Your Email: <input type="email" id="email" name="email" placeholder="Enter your email" required></p>
+<p>Your Feedback: <textarea id="feedback" name="feedback" rows="5" placeholder="Tell us your thoughts..." required></textarea></p>
+<p><a href="mailto:nyabugafinley@gmail.com?subject=Feedback&body=Name:%20[name]%0AEmail:%20[email]%0AFeedback:%20[feedback]"><button type="submit">Submit Feedback</button></a></p>
+<p id="successMessage" class="success-message" style="display:none;">Your feedback was received successfully! Thank you for sharing your thoughts with us.</p>
 </section>
  <!-- Play Game Button -->
     <section id="play-game">
@@ -198,9 +204,9 @@
 </section>
 
 <!-- Calendar Section -->
-<section id="calendar-section" class="hidden">
-    <h2>Our Journey - Days, Months, Years, Hours, Minutes & Seconds</h2>
-    <div id="date-count" class="date-count">
+<section id="calendar-section" class="hidden" style="background-color: #e3f2fd; border: 1px solid #4CAF50; border-radius: 15px; padding: 25px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h2 style="color: #1e88e5; text-align: center; font-family: 'Arial Black', Gadget, sans-serif;">Our Journey - Days, Months, Years, Hours, Minutes & Seconds</h2>
+    <div id="date-count" class="date-count" style="color: #333; font-weight: bold; font-size: 1.2em; text-align: center;">
         <!-- Timer will be shown here -->
     </div>
 </section>
