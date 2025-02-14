@@ -134,48 +134,87 @@
 <body>
 
 <!-- Home Page Welcome -->
-<header>
-    <h1>Welcome to Finley & Faith's Journey</h1>
-    <a href="#" onclick="toggleSection('home-section')" class="button">Home</a>
+<header style="background-color: #008080; color: white; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h1 style="margin: 0; font-family: 'Arial Black', Gadget, sans-serif;">Welcome to Finley & Faith's Journey</h1>
+    <a href="#" onclick="toggleSection('home-section')" class="button" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Home</a>
 </header>
 
+
 <!-- Navigation -->
-<nav>
-    <a href="#" onclick="toggleSection('playlist-section')">Playlist</a>
-    <a href="#" onclick="toggleSection('canva-section')">Canva</a>
-    <a href="#" onclick="toggleSection('calendar-section')">Calendar</a>
-    <a href="#" onclick="toggleSection('profile-section')">Profile</a>
-    <a href="#" onclick="toggleSection('podcast-section')">Podcast</a>
+<nav style="text-align: center; background-color: #f8f8f8; padding: 20px;">
+    <a href="#" onclick="toggleSection('playlist-section')" class="nav-link">Playlist</a>
+    <a href="#" onclick="toggleSection('canva-section')" class="nav-link">Canva</a>
+    <a href="#" onclick="toggleSection('calendar-section')" class="nav-link">Calendar</a>
+    <a href="#" onclick="toggleSection('profile-section')" class="nav-link">Profile</a>
+    <a href="#" onclick="toggleSection('podcast-section')" class="nav-link">Podcast</a>
 </nav>
 
+<style>
+.nav-link {
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #008080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.nav-link:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+
+
 <!-- Home Section -->
-<section id="home-section">
-    <h2>Welcome to Our Site</h2>
-<p>Faith and Finley Onchiri are a testament to love's enduring power, two hearts intertwined in a dance of devotion, laughter, and shared dreams. Their love story is a beautiful journey marked by unwavering support, deep understanding, and the magic of everyday moments cherished together. From whispered secrets to joyous celebrations, Faith and Finley have crafted a bond that grows stronger with each passing day, illuminating their lives with a radiant light that only true love can bring.</p>
-<p>Welcome to our vibrant web space, a dynamic hub that seamlessly blends creativity, entertainment, and personalization. Our platform features an intuitive <strong>Canva</strong> integration, allowing users to create stunning designs effortlessly. Dive into an immersive world of <strong>games</strong> designed to entertain and challenge. Personalize your experience with a detailed <strong>profile</strong>, showcasing your unique identity. Finally, curate your own <strong>playlists</strong> to enjoy your favorite tunes and videos, making our web a go-to destination for creativity, fun, and personal expression.</p>
-<p>🌟 Welcome to Today's Feedback! 🌟 Our vibrant website is your ultimate creative playground. With our intuitive <strong>Canva integration</strong>, you can effortlessly craft stunning designs. Step into an immersive world of <strong>games</strong> that entertain and challenge, while personalizing your experience with a detailed <strong>profile</strong> that showcases your unique identity. Curate your favorite tunes and videos with customizable <strong>playlists</strong>, making our platform a go-to hub for creativity, fun, and personal expression. We value your feedback immensely, so please share your thoughts with us in the form below! 😊</p>
-<p>Your Name: <input type="text" id="name" name="name" placeholder="Enter your name" required></p>
-<p>Your Email: <input type="email" id="email" name="email" placeholder="Enter your email" required></p>
-<p>Your Feedback: <textarea id="feedback" name="feedback" rows="5" placeholder="Tell us your thoughts..." required></textarea></p>
-<p><a href="mailto:nyabugafinley@gmail.com?subject=Feedback&body=Name:%20[name]%0AEmail:%20[email]%0AFeedback:%20[feedback]"><button type="submit">Submit Feedback</button></a></p>
-<p id="successMessage" class="success-message" style="display:none;">Your feedback was received successfully! Thank you for sharing your thoughts with us.</p>
+<section id="home-section" style="padding: 50px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">Welcome to Our Site</h2>
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <p>Faith and Finley Onchiri are a testament to love's enduring power, two hearts intertwined in a dance of devotion, laughter, and shared dreams. Their love story is a beautiful journey marked by unwavering support, deep understanding, and the magic of everyday moments cherished together. From whispered secrets to joyous celebrations, Faith and Finley have crafted a bond that grows stronger with each passing day, illuminating their lives with a radiant light that only true love can bring.</p>
+    </div>
+    
+    <div style="max-width: 900px; margin: 20px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <p>Welcome to our vibrant web space, a dynamic hub that seamlessly blends creativity, entertainment, and personalization. Our platform features an intuitive <strong>Canva</strong> integration, allowing users to create stunning designs effortlessly. Dive into an immersive world of <strong>games</strong> designed to entertain and challenge. Personalize your experience with a detailed <strong>profile</strong>, showcasing your unique identity. Finally, curate your own <strong>playlists</strong> to enjoy your favorite tunes and videos, making our web a go-to destination for creativity, fun, and personal expression.</p>
+    </div>
+    
+    <div style="max-width: 900px; margin: 20px auto; padding: 20px; background-color: #e0f7fa; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <p>Welcome to Today's Feedback!  Our vibrant website is your ultimate creative playground. With our intuitive <strong>Canva integration</strong>, you can effortlessly craft stunning designs. Step into an immersive world of <strong>games</strong> that entertain and challenge, while personalizing your experience with a detailed <strong>profile</strong> that showcases your unique identity. Curate your favorite tunes and videos with customizable <strong>playlists</strong>, making our platform a go-to hub for creativity, fun, and personal expression. We value your feedback immensely, so please share your thoughts with us in the form below! 😊</p>
+        <p>Your Name: <input type="text" id="name" name="name" placeholder="Enter your name" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"></p>
+        <p>Your Email: <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"></p>
+        <p>Your Feedback: <textarea id="feedback" name="feedback" rows="5" placeholder="Tell us your thoughts..." required style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"></textarea></p>
+        <p><a href="mailto:nyabugafinley@gmail.com?subject=Feedback&body=Name:%20[name]%0AEmail:%20[email]%0AFeedback:%20[feedback]"><button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Submit Feedback</button></a></p>
+        <p id="successMessage" class="success-message" style="display:none; color: #28a745; text-align: center; font-weight: bold;">Your feedback was received successfully! Thank you for sharing your thoughts with us.</p>
+    </div>
 </section>
+
 <section style="background-image: url('https://assets.onecompiler.app/42jd8ggps/438uv2s2r/WhatsApp%20Image%202025-02-12%20at%2014.23.40_eda2ea01.jpg'); background-size: cover; background-position: center; height: 30vh; color: white; text-align: center; display: flex; justify-content: center; align-items: center;">
     <h1>Welcome to Our Website</h1>
     <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
 </section>
- <!-- Play Game Button -->
-    <section id="play-game">
-        <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" target="_blank">
-            <button class="play-button">Play Game</button>
-        </a>
-    </section>
 
 <!-- Playlist Section -->
-<section id="playlist-section" class="hidden">
-    <h2>Our Playlists</h2>
-    <div class="spotify-playlists">
-        <p>Here are our favorite playlists. Enjoy!</p>
+<section id="playlist-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">Our Playlists</h2>
+    <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; text-align: center; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <p style="color: #555;">Here are our favorite playlists. Enjoy!</p>
+        <!-- Continue adding your iframes below this line -->
 
 <p><strong>Giveon</strong></p>
         
@@ -209,74 +248,80 @@
 
 
 <!-- Canva Section -->
-<section id="canva-section" class="hidden">
-    <h2>Our Canva</h2>
-    <p>We have an encrypted Canva web accessible only via password. Please click the button below to access it.</p>
-    <a href="https://talescybers.my.canva.site/finley-and-faith-s-private-website" class="bounce button" target="_blank">Visit Our Canva</a>
+<section id="canva-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">Our Canva</h2>
+    <p style="text-align: center; color: #555;">We have an encrypted Canva web accessible only via password. Please click the button below to access it.</p>
+    <div style="text-align: center;">
+        <a href="https://talescybers.my.canva.site/finley-and-faith-s-private-website" class="bounce button" target="_blank" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #008080; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Visit Our Canva</a>
+    </div>
 </section>
 
 <!-- Calendar Section -->
-<section id="calendar-section" class="hidden" style="background-color: #e3f2fd; border: 1px solid #4CAF50; border-radius: 15px; padding: 25px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <h2 style="color: #1e88e5; text-align: center; font-family: 'Arial Black', Gadget, sans-serif;">Our Journey - Days, Months, Years, Hours, Minutes & Seconds</h2>
+<section id="calendar-section" class="hidden" style="background: linear-gradient(to bottom, #e3f2fd, #ffffff); border: 1px solid #4CAF50; border-radius: 15px; padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin: 20px auto; max-width: 800px;">
+    <h2 style="color: #1e88e5; text-align: center; font-family: 'Roboto', sans-serif;">Our Journey - Days, Months, Years, Hours, Minutes & Seconds</h2>
     <div id="date-count" class="date-count" style="color: #333; font-weight: bold; font-size: 1.2em; text-align: center;">
         <!-- Timer will be shown here -->
     </div>
 </section>
 
+<!-- Include Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+
 <!-- Profile Section -->
-<section id="profile-section" class="hidden">
-    <h2>Your Profiles</h2>
-    <button onclick="toggleProfileDetails()">Show Profile Details</button>
+<section id="profile-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">Your Profiles</h2>
+    <button onclick="toggleProfileDetails()" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Show Profile Details</button>
     <div id="profile-details">
         <!-- Editable Profile Form -->
-        <div class="form-container" id="profile-form-container">
-            <h3>Edit Profile for Finley</h3>
+        <div class="form-container" id="profile-form-container" style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="text-align: center; color: #333;">Edit Profile for Finley</h3>
             <label for="name">Name:</label>
-            <input type="text" id="finley-name" class="form-input" placeholder="Enter your name">
+            <input type="text" id="finley-name" class="form-input" placeholder="Enter your name" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="email">Email:</label>
-            <input type="email" id="finley-email" class="form-input" placeholder="Enter your email">
+            <input type="email" id="finley-email" class="form-input" placeholder="Enter your email" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="phone">Phone:</label>
-            <input type="text" id="finley-phone" class="form-input" placeholder="Enter your phone number">
+            <input type="text" id="finley-phone" class="form-input" placeholder="Enter your phone number" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="dob">Date of Birth:</label>
-            <input type="date" id="finley-dob" class="form-input">
+            <input type="date" id="finley-dob" class="form-input" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="profile-pic">Profile Picture:</label>
-            <input type="file" id="profile-pic" class="form-input" accept="image/*">
-            <button onclick="saveFinleyProfile()" class="button">Save Finley's Profile</button>
+            <input type="file" id="profile-pic" class="form-input" accept="image/*" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px;">
+            <button onclick="saveFinleyProfile()" class="button" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #008080; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Finley's Profile</button>
         </div>
 
-        <div class="form-container" id="faith-form-container">
-            <h3>Edit Profile for Faith</h3>
+        <div class="form-container" id="faith-form-container" style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <h3 style="text-align: center; color: #333;">Edit Profile for Faith</h3>
             <label for="name">Name:</label>
-            <input type="text" id="faith-name" class="form-input" placeholder="Enter your name">
+            <input type="text" id="faith-name" class="form-input" placeholder="Enter your name" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="email">Email:</label>
-            <input type="email" id="faith-email" class="form-input" placeholder="Enter your email">
+            <input type="email" id="faith-email" class="form-input" placeholder="Enter your email" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="phone">Phone:</label>
-            <input type="text" id="faith-phone" class="form-input" placeholder="Enter your phone number">
+            <input type="text" id="faith-phone" class="form-input" placeholder="Enter your phone number" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="dob">Date of Birth:</label>
-            <input type="date" id="faith-dob" class="form-input">
+            <input type="date" id="faith-dob" class="form-input" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="profile-pic">Profile Picture:</label>
-            <input type="file" id="faith-profile-pic" class="form-input" accept="image/*">
-            <button onclick="saveFaithProfile()" class="button">Save Faith's Profile</button>
+            <input type="file" id="faith-profile-pic" class="form-input" accept="image/*" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px;">
+            <button onclick="saveFaithProfile()" class="button" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #008080; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Faith's Profile</button>
         </div>
 
         <!-- Display Profile Data -->
-        <div class="content-container">
-            <div>
-                <h3>Finley's Profile</h3>
-                <img id="finley-img" class="profile-img" alt="Finley's Profile Picture">
-                <p id="finley-name-text">Name: Finley</p>
-                <p id="finley-email-text">Email: finley@example.com</p>
-                <p id="finley-phone-text">Phone: 123-456-7890</p>
-                <p id="finley-dob-text">Date of Birth: 1995-06-15</p>
-            </div>
-            <div>
-                <h3>Faith's Profile</h3>
-                <img id="faith-img" class="profile-img" alt="Faith's Profile Picture">
-                <p id="faith-name-text">Name: Faith</p>
-                <p id="faith-email-text">Email: faith@example.com</p>
-                <p id="faith-phone-text">Phone: 098-765-4321</p>
-                <p id="faith-dob-text">Date of Birth: 1996-11-10</p>
-            </div>
+<div class="content-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; padding: 20px; background-color: #f9f9f9;">
+    <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 350px; text-align: center;">
+        <h3 style="color: #4CAF50;">Finley's Profile</h3>
+        <img id="finley-img" class="profile-img" alt="Finley's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+        <p id="finley-name-text" style="color: #333;">Name: Finley</p>
+        <p id="finley-email-text" style="color: #333;">Email: finley@example.com</p>
+        <p id="finley-phone-text" style="color: #333;">Phone: 123-456-7890</p>
+        <p id="finley-dob-text" style="color: #333;">Date of Birth: 1995-06-15</p>
+    </div>
+    <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 350px; text-align: center;">
+        <h3 style="color: #FF5722;">Faith's Profile</h3>
+        <img id="faith-img" class="profile-img" alt="Faith's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+        <p id="faith-name-text" style="color: #333;">Name: Faith</p>
+        <p id="faith-email-text" style="color: #333;">Email: faith@example.com</p>
+        <p id="faith-phone-text" style="color: #333;">Phone: 098-765-4321</p>
+        <p id="faith-dob-text" style="color: #333;">Date of Birth: 1996-11-10</p>
+    </div>
         </div>
 
         <!-- Our Games Section -->
