@@ -268,27 +268,27 @@
 
 
 <!-- Profile Section -->
-<section id="profile-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
+<section id="profile-section" class="hidden" style="padding: 0px; background-color: #f9f9f9;">
     <h2 style="text-align: center; color: #333;">Your Profiles</h2>
-    <button onclick="toggleProfileDetails()" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Show Profile Details</button>
+    <button onclick="toggleProfileDetails()" style="display: block; margin: 20px auto; padding: 0px 0px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Show Profile Details</button>
     <div id="profile-details">
         <!-- Editable Profile Form -->
-        <div class="form-container" id="profile-form-container" style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="form-container" id="profile-form-container" style="max-width: 600px; margin: 20px auto; padding: 0px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <h3 style="text-align: center; color: #333;">Edit Profile for Finley</h3>
             <label for="name">Name:</label>
-            <input type="text" id="finley-name" class="form-input" placeholder="Enter your name" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+            <input type="text" id="finley-name" class="form-input" placeholder="Enter your name" style="width: 100%; padding: 0px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="email">Email:</label>
-            <input type="email" id="finley-email" class="form-input" placeholder="Enter your email" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+            <input type="email" id="finley-email" class="form-input" placeholder="Enter your email" style="width: 100%; padding: 0px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="phone">Phone:</label>
-            <input type="text" id="finley-phone" class="form-input" placeholder="Enter your phone number" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+            <input type="text" id="finley-phone" class="form-input" placeholder="Enter your phone number" style="width: 100%; padding: 0px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="dob">Date of Birth:</label>
-            <input type="date" id="finley-dob" class="form-input" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+            <input type="date" id="finley-dob" class="form-input" style="width: 100%; padding: 0px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
             <label for="profile-pic">Profile Picture:</label>
-            <input type="file" id="profile-pic" class="form-input" accept="image/*" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px;">
-            <button onclick="saveFinleyProfile()" class="button" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #008080; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Finley's Profile</button>
+            <input type="file" id="profile-pic" class="form-input" accept="image/*" style="width: 100%; padding: 0px; margin: 10px 0; border-radius: 5px;">
+            <button onclick="saveFinleyProfile()" class="button" style="display: block; margin: 20px auto; padding: 0px 0px; background-color: #008080; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Finley's Profile</button>
         </div>
 
-        <div class="form-container" id="faith-form-container" style="max-width: 600px; margin: 20px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="form-container" id="faith-form-container" style="max-width: 600px; margin: 20px auto; padding: 0px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <h3 style="text-align: center; color: #333;">Edit Profile for Faith</h3>
             <label for="name">Name:</label>
             <input type="text" id="faith-name" class="form-input" placeholder="Enter your name" style="width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
