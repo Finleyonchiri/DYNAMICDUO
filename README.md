@@ -204,39 +204,86 @@
     </div>
 </section>
 
-<section id="playlist-section" class="hidden" 
-    <h2 style="text-align: center; color: #333;">Our Playlists</h2>
-    <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; background-color: white;">
-        <p style="color: #555;">Here are our favorite playlists. Enjoy!</p>
+<section style="background-image: url('https://assets.onecompiler.app/42jd8ggps/438uv2s2r/WhatsApp%20Image%202025-02-12%20at%2014.23.40_eda2ea01.jpg'); background-size: cover; background-position: center; height: 30vh; color: white; text-align: center; display: flex; justify-content: center; align-items: center;">
+    <h1>Welcome to Our Website</h1>
+    <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
+</section>
 
+<!-- Playlist Section -->
+<section id="playlist-section" class="hidden" style="padding: 20px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #333;">Our Playlists</h2>
+    <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; text-align: center; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <p style="color: #555;">Here are our favorite playlists. Enjoy!</p>
+        
         <!-- Playlist Embeds -->
+        <p><strong>Giveon</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4fxd5Ee7UefO4CUXgwJ7IP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>Top Christian</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5rwdHhhy28n7iOnrSC291e?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>Hot list ke</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWWXigQZAD8B?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>Amapiano</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Ymf8eaPQGT7HMTymoX82f?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>The Story Teller</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7xPDTxQrpZPvvI0LzuO73p?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>Nyashinski</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7KY9NaOVRmptl8vlpVomi6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>Bien</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2zhossaaVN2pXg5p8o101X?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>mr Lamar</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2YZyLoL8N0Wb9xBt1NhZWg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+        <p><strong>Sauti Sol</strong></p>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4Rj9lQm9oSiMlirgpsM6eo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </section>
 
-<!-- Calendar Section -->
-<section id="calendar-section" class="hidden" style="background: linear-gradient(to bottom, #e3f2fd, #ffffff); border: 1px solid #4CAF50; border-radius: 15px; padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin: 20px auto; max-width: 800px;">
-    <h2 style="color: #1e88e5; text-align: center; font-family: 'Roboto', sans-serif;">Our Journey - Days, Months, Years, Hours, Minutes & Seconds</h2>
-    <div id="date-count" class="date-count" style="color: #333; font-weight: bold; font-size: 1.2em; text-align: center;">
-        <!-- Timer will be shown here -->
-    </div>
-</section>
+<style>
+    /* General Styles */
+    .spotify-playlists iframe {
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+    
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+        section#playlist-section {
+            padding: 10px;
+        }
+        .spotify-playlists {
+            padding: 15px;
+            box-shadow: none;  /* Remove shadow on mobile to save space */
+            margin: 0;
+        }
+        .spotify-playlists iframe {
+            height: 300px;  /* Reduce iframe height on mobile */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .spotify-playlists iframe {
+            height: 250px;  /* Further reduce iframe height on very small screens */
+        }
+        .spotify-playlists {
+            padding: 10px;
+        }
+        section#playlist-section h2 {
+            font-size: 22px;
+        }
+        .spotify-playlists p {
+            font-size: 14px;
+        }
+    }
+</style>
+
+
 
 <!-- Canva Section -->
 <section id="canva-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
@@ -295,25 +342,27 @@
             <button onclick="saveFaithProfile()" class="button" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #008080; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Faith's Profile</button>
         </div>
 
-        <!-- Display Profile Data -->
-<div class="content-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; padding: 20px; background-color: #f9f9f9;">
-    <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 350px; text-align: center;">
-        <h3 style="color: #4CAF50;">Finley's Profile</h3>
-        <img id="finley-img" class="profile-img" alt="Finley's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
-        <p id="finley-name-text" style="color: #333;">Name: Finley</p>
-        <p id="finley-email-text" style="color: #333;">Email: finley@example.com</p>
-        <p id="finley-phone-text" style="color: #333;">Phone: 123-456-7890</p>
-        <p id="finley-dob-text" style="color: #333;">Date of Birth: 1995-06-15</p>
+        <div class="content-container">
+    <div style="margin-bottom: 20px;">
+        <h3>Finley's Profile</h3>
+        <img id="finley-img" alt="Finley's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+        <p id="finley-name-text">Name: Finley</p>
+        <p id="finley-email-text">Email: finley@example.com</p>
+        <p id="finley-phone-text">Phone: 123-456-7890</p>
+        <p id="finley-dob-text">Date of Birth: 1995-06-15</p>
     </div>
-    <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 350px; text-align: center;">
-        <h3 style="color: #FF5722;">Faith's Profile</h3>
-        <img id="faith-img" class="profile-img" alt="Faith's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
-        <p id="faith-name-text" style="color: #333;">Name: Faith</p>
-        <p id="faith-email-text" style="color: #333;">Email: faith@example.com</p>
-        <p id="faith-phone-text" style="color: #333;">Phone: 098-765-4321</p>
-        <p id="faith-dob-text" style="color: #333;">Date of Birth: 1996-11-10</p>
+    <div>
+        <h3>Faith's Profile</h3>
+        <img id="faith-img" alt="Faith's Profile Picture" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+        <p id="faith-name-text">Name: Faith</p>
+        <p id="faith-email-text">Email: faith@example.com</p>
+        <p id="faith-phone-text">Phone: 098-765-4321</p>
+        <p id="faith-dob-text">Date of Birth: 1996-11-10</p>
     </div>
-        </div>
+</div>
+
+</div>
+
 
         <!-- Our Games Section -->
         <div id="score-section">
@@ -345,19 +394,29 @@
     </div>
 </section>
 
-<!-- Podcast Section -->
-<section id="podcast-section" class="hidden">
-    <h2>Our Podcasts</h2>
-    <div class="spotify-podcasts">
-        <p>Listen to our favorite podcasts!</p>
+<section id="playlist-section" class="hidden">
+    <h2>Our Playlists</h2>
+    <div class="spotify-playlists">
+        <p>Here are our favorite playlists. Enjoy!</p>
+        
+        <!-- Playlist Embeds -->
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4fxd5Ee7UefO4CUXgwJ7IP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6YYGHDGOwrqvKxNZCkQs4r?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5rwdHhhy28n7iOnrSC291e?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5ehrCYFqWXgB8z2zaexKUj?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWWXigQZAD8B?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4O2f6QEg0qXWrUTWymDbkY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Ymf8eaPQGT7HMTymoX82f?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/3JI1oNMx00PeIIxJfbz4ux?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7xPDTxQrpZPvvI0LzuO73p?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7KY9NaOVRmptl8vlpVomi6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2zhossaaVN2pXg5p8o101X?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2YZyLoL8N0Wb9xBt1NhZWg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4Rj9lQm9oSiMlirgpsM6eo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </section>
 
