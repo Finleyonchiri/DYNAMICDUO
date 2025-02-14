@@ -208,9 +208,9 @@
     <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
 </section>
 
-<section id="playlist-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
+<section id="playlist-section" class="hidden" 
     <h2 style="text-align: center; color: #333;">Our Playlists</h2>
-    <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <div class="spotify-playlists" style="max-width: 800px; margin: 0 auto; background-color: white;">
         <p style="color: #555;">Here are our favorite playlists. Enjoy!</p>
 
         <!-- Playlist Embeds -->
