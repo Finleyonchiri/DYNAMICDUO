@@ -134,7 +134,7 @@
 <body>
 
 <!-- Home Page Welcome -->
-<header style="background-color: #008080; color: white; padding: 20px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+<header style="background-color: #008080; color: white; padding: 0px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <h1 style="margin: 0; font-family: 'Arial Black', Gadget, sans-serif;">Welcome to Finley & Faith's Journey</h1>
     <a href="#" onclick="toggleSection('home-section')" class="button" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Home</a>
 </header>
@@ -184,7 +184,7 @@
 
 
 <!-- Home Section -->
-<section id="home-section" style="padding: 50px; background-color: #f9f9f9;">
+<section id="home-section" style="padding: 0px; background-color: #f9f9f9;">
     <h2 style="text-align: center; color: #333;">Welcome to Our Site</h2>
     <div style="max-width: 800px; margin: 0 auto; text-align: center;">
         <p>Faith and Finley Onchiri are a testament to love's enduring power, two hearts intertwined in a dance of devotion, laughter, and shared dreams. Their love story is a beautiful journey marked by unwavering support, deep understanding, and the magic of everyday moments cherished together. From whispered secrets to joyous celebrations, Faith and Finley have crafted a bond that grows stronger with each passing day, illuminating their lives with a radiant light that only true love can bring.</p>
@@ -206,7 +206,7 @@
 
 <section style="background-image: url('https://assets.onecompiler.app/42jd8ggps/438uv2s2r/WhatsApp%20Image%202025-02-12%20at%2014.23.40_eda2ea01.jpg'); background-size: cover; background-position: center; height: 30vh; color: white; text-align: center; display: flex; justify-content: center; align-items: center;">
     <h1>Welcome to Our Website</h1>
-    <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
+    <a href="https://finleyonchiri.github.io/faith-and-finley-daily-game/" style="padding: 0px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">GAMES</a>
 </section>
 
 <!-- Playlist Section -->
@@ -247,7 +247,7 @@
 
 
 <!-- Canva Section -->
-<section id="canva-section" class="hidden" style="padding: 50px; background-color: #f9f9f9;">
+<section id="canva-section" class="hidden" style="padding: 0px; background-color: #f9f9f9;">
     <h2 style="text-align: center; color: #333;">Our Canva</h2>
     <p style="text-align: center; color: #555;">We have an encrypted Canva web accessible only via password. Please click the button below to access it.</p>
     <div style="text-align: center;">
